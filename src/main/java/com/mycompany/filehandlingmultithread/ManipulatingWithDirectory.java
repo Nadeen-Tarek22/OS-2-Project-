@@ -64,8 +64,8 @@ public class ManipulatingWithDirectory {
    public static int numberOfWords(String[] wordsArray) {
     return wordsArray == null ? 0 : wordsArray.length;
 }
-
-
+// process to run without GUI
+/*
     public void processAllFiles() 
     {
         File directory = Create.directory;
@@ -94,7 +94,7 @@ public class ManipulatingWithDirectory {
         }
     }
 
- 
+ */
 
     public String[] readFileToWords(File file) {
         try (BufferedReader reader = new BufferedReader(new FileReader(file))) {
